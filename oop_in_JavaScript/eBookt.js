@@ -1,4 +1,4 @@
-const Book = require("./book.js"); // Iмпорт класу Book
+const Book = require('./book'); // Iмпорт класу Book
 
 class EBook extends Book {
   constructor(title, author, year, fileFormat) {
