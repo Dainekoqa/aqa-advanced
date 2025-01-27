@@ -28,7 +28,7 @@ async function createPost() {
     }
 }
 
-//  (GET, POST, PUT, DELETE)
+//  (POST, GET, PUT, DELETE)
 
 module.exports = { getPosts, createPost };
 
