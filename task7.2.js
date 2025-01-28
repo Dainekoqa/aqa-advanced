@@ -18,10 +18,6 @@
 
 // countToTenRecursions(5);
 
-
-
-
-
 // function outerFunction(){
 //     const outerVariable = "I am from outer function";
 // function innerFunction(){
@@ -33,13 +29,11 @@
 
 // outerFunction();
 
-
 // Homework №7
 function recursiveCounter(num) {
-
-    console.log(num);
-    if (num > 0) {
-        recursiveCounter(num - 1);
-    }
+  console.log(num);
+  if (num > 0) {
+    recursiveCounter(num - 1);
+  }
 }
 recursiveCounter(5);
